@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Varela Round', sans-serif;
+    color: #181945;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.div-header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__ul{
+    display: flex;
+    margin-top: 35px;
+}
+.header__ul li{
+    margin-right: 60px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.header__logo{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+.section-about .container{
+    background-image: url(../ASSETS/IMG/bg_about-index.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.section-about__title{
+    font-size: 64px;
+}
+.section-about__text{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.div-section-about{
+    padding: 100px 650px 200px 150px;
+}
+.div-about-number{
+    text-align: left;
+    max-width: 220px;
+    max-height: 160px;
+    padding: 10px;
+    border: none;
+    background-color: #7ABADD;
+    border-radius: 20px;
+}
+.div-about-number__text{
+    color: #583FBC;
+    font-weight: 900;
+}
+.div-about-numberphone{
+    font-weight: 900;
+}
+.section-services__mini-title{
+    font-size: 12px;
+    font-weight: 900;
+    color: #583FBC;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.div-services__title{
+    display: flex;
+}
+.div-services__title h2{
+    font-size: 48px;
+}
+.div-services__title p{
+    text-align: justify;
+    font-size: 18px;
+    opacity: 0.7;
+    padding-right: 150px;
+    padding-left: 50px;
+}
+.section-services__button{
+    text-align: center;
+}
+.section-services__button--toggle{
+    color: #583FBC;
+    background-color: #E6E6FA;
+    border: 0;
+    width: 240px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.div-services-elements--tog{
+    display: none;
+}
+.section-services__button--toggle:hover{
+    cursor: pointer;
+    transition-duration: 1.5s;
+    transform: scale(1.2);
+}
+.div-services{
+    display: flex;
+}
+.div-services-elements{
+    text-align: justify;
+    border: 3px solid #E6E6FA;
+    margin: 50px 40px;
+    border-radius: 45px;
+}
+.div-services-elements h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.div-services-elements p{
+    padding: 0px 20px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+.div-servivec-elements__bg-dentures{
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #DBEFFA;
+}
+.div-services-elements__bg-implants{
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #DBDEFA;
+}
+.div-services-elements__bg-whitening{
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #F6DBFA;
+}
+.div-services-elements__bg-root-canal{
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #FADBE2; 
+}
+.section-testimonial .container{
+    background-color: #D9EBFA;
+    border-radius: 70px;
+    margin-bottom: 15px;
+}
+.section-testimonial__mini-title{
+    font-size: 12px;
+    font-weight: 900;
+    color: #583FBC;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.section-testimonial__title{
+    display: flex;
+}
+.section-testimonial__title h2{
+    font-size: 48px;
+    padding-left: 20px;
+}
+.section-testimonial__title p{
+    text-align: justify;
+    font-size: 18px;
+    opacity: 0.7;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+.div-testimonials{
+    display: flex;
+}
+.testimonial-elements{
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 45px;
+    margin: 50px 40px;
+}
+.testimonial-elements h4{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.testimonial-elements__text{
+    font-size: 16px;
+    opacity: 0.7;
+}
+footer .container{
+    background-color: #583FBC;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}

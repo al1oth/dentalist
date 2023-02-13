@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    font-family: 'Varela Round', sans-serif;
+    color: #181945;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.div-header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__ul{
+    display: flex;
+    margin-top: 35px;
+}
+.header__ul li{
+    margin-right: 60px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.header__logo{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+.section-contacts .container{
+    background-color: #D9EBFA;
+    border-radius: 70px;
+}
+.section-contacts__mini-title{
+    font-size: 12px;
+    font-weight: 900;
+    color: #583FBC;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.section-contacts__title{
+    display: flex;
+}
+.section-contacts__title h2{
+    font-size: 48px;
+    padding-left: 20px;
+}
+.section-contacts__title p{
+    text-align: justify;
+    font-size: 18px;
+    opacity: 0.7;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+.section-contacts__form{
+    text-align: center;
+}
+.section-contacts__label{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.section-contacts__input{
+    font-size: 14px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+.section-contacts__input-message{
+    font-size: 14px;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+}
+.section-contacts__submit{
+    color: #583FBC;
+    background-color: #E6E6FA;
+    border: 0;
+    width: 240px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.section-contacts__submit:hover{
+    cursor: pointer;
+    transition-duration: 1.5s;
+    transform: scale(1.2);
+}
+footer .container{
+    background-color: #583FBC;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
